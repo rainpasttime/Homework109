@@ -1,3 +1,4 @@
+
 function loadAllItems() {
     return [
         {
@@ -51,3 +52,9 @@ function loadPromotions() {
         }
     ];
 }
+
+module. exports={
+    loadPromotions:loadPromotions,
+    loadAllItems:loadAllItems
+};
+
